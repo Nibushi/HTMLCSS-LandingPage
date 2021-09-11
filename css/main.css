@@ -154,11 +154,10 @@ section{
 }
 
 .hero {
-    background-image: url("../img/hero.jpg");
+    background-image: url('../img/hero.jpg');
     height: 400px;
     background-size: cover;
-    background-position-x: center;
-    background-position-y: center;
+    background-position: center center;
     text-transform: uppercase;
 }
 
@@ -189,10 +188,10 @@ section{
     width:100%;
     border-top: 1px solid #a0a0a0;
     border-bottom: 1px solid #a0a0a0;
-    padding: 15px 0;
+    padding: 25px 0;
 }
 
-.banner > img {
+.banner img {
     width: 250px;
 }
 
@@ -231,7 +230,8 @@ section{
     font-weight: 200;
     color: #faa541;
 }
-.category-text > h3 {
+
+.category-text h3 {
     font-size: 30px;
     font-weight: 700;
     line-height: 1;
