@@ -329,8 +329,7 @@ footer:after {
 
 .lists {
     flex: 0 0 75%;
-    margin: 0 15px;
-    padding: 40px 0;
+    padding: 40px 15px;
 }
 
 .link-header{
@@ -389,7 +388,7 @@ footer a:hover {
     font-style: italic;
     font-size: 12px;
     font-weight: 400;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
 }
 
 .newsletter input {
